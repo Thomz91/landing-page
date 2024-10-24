@@ -111,6 +111,7 @@ a {
 }
 
 .information {
+    color: #1f2937;
     background-color: #fff;
     padding: 40px 16px;
     display: flex;
@@ -130,10 +131,6 @@ a {
     flex-direction: column;
     justify-content: center;
     flex: 1;
-}
-
-.cardimg {
-    
 }
 
 .cardimg img {
@@ -162,6 +159,10 @@ a {
     }
 }
 
+.quotecontent {
+    max-width: 900px;
+}
+
 .quotecontainer {
     background-color: #e5e7eb;
     padding: 40px 16px;
@@ -169,3 +170,20 @@ a {
     align-items: center;
     flex-direction: column;
 }
+
+.quotetext {
+    color: #1f2937;
+    margin-bottom: 24px;
+}
+.quotetext p {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quotename p {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
